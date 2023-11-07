@@ -20,6 +20,7 @@ jobs:
     - name: Generate Pinouts
       uses: chuckwagoncomputing/interactive-pinout@2.10
       with:
+        debug: "true"
         mapping-path: "*/connectors/*.yaml"
         warnings: "false"
         warning-dupe: "error"
