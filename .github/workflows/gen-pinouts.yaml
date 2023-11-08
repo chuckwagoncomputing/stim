@@ -18,9 +18,8 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Generate Pinouts
-      uses: chuckwagoncomputing/interactive-pinout@templates-error
+      uses: chuckwagoncomputing/interactive-pinout@templates-error-2
       with:
-        debug: "true"
         mapping-path: "*/connectors/*.yaml"
         warnings: "false"
         warning-dupe: "error"
